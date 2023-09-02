@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day23-Weather App using HTML CSS and JavaScript Description</title>
+    <link rel="icon" href="./images/AZIER.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="weatherContainer">
+      <h2 class="appHeading">Weather App</h2>
+
+      <div class="search">
+        <form action="" id="weatherForm">
+          <input
+            type="text"
+            name=""
+            id="weatherInput"
+            placeholder="Enter your cty here ..."
+          />
+          <button class="searchBtn" type="submit">
+            <ul>
+              <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            </ul>
+          </button>
+        </form>
+      </div>
+
+      <h2 id="city"></h2>
+      <img src="." alt="" id="weatherImage" />
+      <p class="weatherMain" id="weatherMain"></p>
+      <h2 id="temp"><span class="temp"></span></h2>
+      <div class="todayDates"></div>
+      <div id="todayTime"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
